@@ -1,0 +1,14 @@
+{
+  "name": "t3n-recon-agent",
+  "version": "0.1.0",
+  "description": "On-chain reconciliation agent with T3N trusted identity (Superteam Earn bounty)",
+  "type": "module",
+  "scripts": {
+    "quickstart": "tsx --env-file=.env quickstart.ts",
+    "recon": "tsx --env-file=.env src/index.ts"
+  },
+  "dependencies": {
+    "@terminal3/t3n-sdk": "5.2.0",
+    "tsx": "^4.23.13"
+  }
+}

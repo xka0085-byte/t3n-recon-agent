@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+    "chain": "eth",
+    "window": {
+      "from": "2026-08-07T04:43:48.542Z",
+      "to": "2026-09-06T04:43:48.542Z"
+    },
+    "generatedAt": "2026-09-06T04:43:48.542Z",
+    "txScanned": 150,
+    "txInWindow": 23
+  },
+  "totals": {
+    "inflowEth": 0.007499568476068754,
+    "outflowEth": 0,
+    "feesEth": 0.001813297909444947,
+    "netEth": 0.007499568476068754
+  },
+  "counterparties": [
+    {
+      "address": "0xb8aeccc3ab76a0a1fb807244205b1e3f88c86b89",
+      "txCount": 4,
+      "volumeEth": 0.001637284338004952,
+      "direction": "in"
+    },
+    {
+      "address": "0x792316a26d8fd17fb0d89276dc21f23e868c1fc3",
+      "txCount": 4,
+      "volumeEth": 0.000457728262495602,
+      "direction": "in"
+    },
+    {
+      "address": "0x231b0ee14048e9dccd1d247744d114a4eb5e8e63",
+      "txCount": 3,
+      "volumeEth": 0,
+      "direction": "out"
+    },
+    {
+      "address": "0xfd8d904767176d9f2feb7305e4714dc89758dc48",
+      "txCount": 2,
+      "volumeEth": 0,
+      "direction": "in"
+    },
+    {
+      "address": "0x53b211221ed8a0835e1ebf629a478367f451a378",
+      "txCount": 2,
+      "volumeEth": 2e-7,
+      "direction": "in"
+    },
+    {
+      "address": "0x899ac98d90cd60eda9af2b4690307db784d03871",
+      "txCount": 1,
+      "volumeEth": 0.0000666,
+      "direction": "in"
+    },
+    {
+      "address": "0xd5576de575554fe28ae71c2b2adf1e9bdc9f8f74",
+      "txCount": 1,
+      "volumeEth": 0.000379393620112634,
+      "direction": "in"
+    },
+    {
+      "address": "0x14d1d32e80f72e1dbf3f7e15832208aec6ad3b34",
+      "txCount": 1,
+      "volumeEth": 0.000032073707614893,
+      "direction": "in"
+    },
+    {
+      "address": "0xf1e863db11ac066395ae1248257c2d2b9644bf3f",
+      "txCount": 1,
+      "volumeEth": 0.001,
+      "direction": "in"
+    },
+    {
+      "address": "0xf3f9c2480a479901237d449dcebd51eec5ddb4e9",
+      "txCount": 1,
+      "volumeEth": 0.003810972622391212,
+      "direction": "in"
+    },
+    {
+      "address": "0x815c0749b7f28001bf00d28be3ffcdfaba919349",
+      "txCount": 1,
+      "volumeEth": 0.000005315925449461,
+      "direction": "in"
+    },
+    {
+      "address": "0x54553686f101723b69ea87db9a9b568cc4bbaf4a",
+      "txCount": 1,
+      "volumeEth": 0.0001,
+      "direction": "in"
+    },
+    {
+      "address": "0xa2e401452fd9a80f53b34d41a057eeaa741576b2",
+      "txCount": 1,
+      "volumeEth": 0.00001,
+      "direction": "in"
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-08-08",
+      "count": 1,
+      "inflowEth": 0.00001,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-10",
+      "count": 1,
+      "inflowEth": 0.0001,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1,
+      "inflowEth": 0.000005315925449461,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-13",
+      "count": 4,
+      "inflowEth": 0.000457728262495602,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-14",
+      "count": 2,
+      "inflowEth": 2e-7,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-20",
+      "count": 2,
+      "inflowEth": 0.004810972622391212,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-21",
+      "count": 5,
+      "inflowEth": 0.000411467327727527,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-23",
+      "count": 1,
+      "inflowEth": 0.000409321084501238,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-24",
+      "count": 2,
+      "inflowEth": 0.000818642169002476,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-25",
+      "count": 2,
+      "inflowEth": 0.000475921084501238,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-09-01",
+      "count": 2,
+      "inflowEth": 0,
+      "outflowEth": 0
+    }
+  ],
+  "largestTx": {
+    "hash": "0x4ff69976c848060b015a27f21275cb303269cb729af1616f1bf074c96a7fd3c2",
+    "valueEth": 0.003810972622391212,
+    "direction": "in",
+    "timestamp": "2026-08-20T19:09:23.000000Z"
+  },
+  "suspicious": {
+    "failedTxs": 1,
+    "dustTxs": 6,
+    "singleCounterpartyBurst": null
+  }
+}

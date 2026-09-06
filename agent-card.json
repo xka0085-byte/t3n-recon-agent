@@ -1,0 +1,16 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Onchain Recon Agent",
+  "description": "Enterprise on-chain reconciliation agent by eidon-labs. Fetches EVM address transaction history across Ethereum, Base, Arbitrum and Optimism, builds reconciliation reports (inflow/outflow/fees/net, top counterparties, daily activity, anomaly flags: failed txs, dust, counterparty bursts), and binds every report hash to a T3N DID attestation for tamper-evident audit trails.",
+  "services": [
+    {
+      "name": "DID",
+      "endpoint": "did:t3n:7dddb24424ebae514ec79c67f1e463522123c8fd",
+      "version": "v1"
+    }
+  ],
+  "x402Support": false,
+  "active": true,
+  "registrations": [],
+  "supportedTrust": ["tee-attestation"]
+}
