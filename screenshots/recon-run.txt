@@ -1,0 +1,12 @@
+[recon] fetching eth txs for 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045 (up to 3 pages)...
+[recon] got 150 txs, 150 token transfers
+[recon] report saved: reports/eth-0xd8dA6BF2-2026-09-06T09-39-04.json / reports/eth-0xd8dA6BF2-2026-09-06T09-39-04.md / reports/eth-0xd8dA6BF2-2026-09-06T09-39-04.csv
+[t3n] attestation written: reports/eth-0xd8dA6BF2-2026-09-06T09-39-04.attestation.json
+[t3n] signed-in identity: did:t3n:6951e5de000a39b57956b9c2b9edc7b462d0931e
+
+=== Summary ===
+Inflow : 0.007500 ETH
+Outflow: 0.000000 ETH
+Fees   : 0.001813 ETH
+Net    : 0.007500 ETH
+Flags  : failed=1 dust=6

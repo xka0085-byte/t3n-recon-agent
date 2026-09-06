@@ -1,0 +1,2 @@
+[server] identity: did:t3n:6951e5de000a39b57956b9c2b9edc7b462d0931e
+[server] listening on :8811

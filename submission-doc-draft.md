@@ -16,10 +16,15 @@
 
 1. Fetches EVM transaction history for any address from public Blockscout instances
    (Ethereum / Base / Arbitrum / Optimism — zero explorer API keys).
-2. Builds a reconciliation report: inflow / outflow / fees / net, top counterparties,
-   daily activity table, anomaly flags (failed txs, dust, single-counterparty bursts).
-3. Computes the report's SHA-256 hash and binds it to the authenticated T3N DID,
+2. Reconciles **native ETH and ERC-20/stablecoin flows** (USDC, USDT, …): per-asset
+   inflow/outflow/net, top counterparties, daily activity, anomaly flags (failed
+   txs, dust, single-counterparty bursts).
+3. Exports Markdown (human), JSON (machine), and **CSV for accounting import**
+   (fixed precision — no scientific notation; a real bug we caught and fixed).
+4. Computes the report's SHA-256 hash and binds it to the authenticated T3N DID,
    producing a `.attestation.json` tamper-evident audit artifact for every report.
+5. Runs as a **hosted HTTP service** (`GET /recon?…`, `GET /healthz`), identity-bound
+   to a T3N DID at boot — deployable post-challenge as-is.
 
 Why enterprises care: reconciliation output that is bound to a verifiable identity
 can be used for bookkeeping and audit without trusting the messenger.

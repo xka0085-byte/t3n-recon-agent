@@ -1,0 +1,43 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+  body{margin:0;background:#0d1117;font-family:'Cascadia Code',Consolas,monospace}
+  .win{margin:24px;border-radius:10px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.5);border:1px solid #30363d}
+  .bar{background:#161b22;padding:10px 14px;display:flex;align-items:center;gap:8px;border-bottom:1px solid #30363d}
+  .dot{width:12px;height:12px;border-radius:50%}
+  .t{color:#8b949e;font-size:13px;margin-left:10px}
+  pre{margin:0;padding:20px 24px;color:#c9d1d9;font-size:13.5px;line-height:1.55;white-space:pre-wrap}
+  .g{color:#3fb950}.y{color:#d29922}.c{color:#58a6ff}
+</style></head><body><div class="win"><div class="bar">
+  <span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span>
+  <span class="t">t3n-recon-agent — npm run serve (HTTP mode)</span></div><pre><span class="g">PS C:\t3n-recon-agent&gt;</span> npm run serve
+<span class="g">[server]</span> identity: did:t3n:6951e5de000a39b57956b9c2b9edc7b462d0931e
+<span class="g">[server]</span> listening on :8787
+
+<span class="g">PS C:\t3n-recon-agent&gt;</span> <span class="c">curl http://localhost:8787/healthz</span>
+{"status":"ok","agent":"did:t3n:6951e5de000a39b57956b9c2b9edc7b462d0931e"}
+
+<span class="g">PS C:\t3n-recon-agent&gt;</span> <span class="c">curl "http://localhost:8787/recon?address=0xd8dA...6045&amp;token=USDC"</span>
+{
+  "meta": {
+    "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+    "chain": "eth",
+    "window": {
+      "from": "2026-08-30T09:40:11.347Z",
+      "to": "2026-09-06T09:40:11.347Z"
+    },
+    "generatedAt": "2026-09-06T09:40:11.347Z",
+    "txScanned": 150,
+    "txInWindow": 2
+  },
+  "totals": {
+    "inflowEth": 0,
+    "outflowEth": 0,
+    "feesEth": 0.00000757726655422,
+    "netEth": 0
+  },
+  "counterparties": [
+    {
+      "address": "0xfd8d904767176d9f2feb7305e4714dc89758dc48",
+      "txCount": 2,
+      "volumeEth": 0,
+      "direction": "in"
+  ...</pre></div></body></html>

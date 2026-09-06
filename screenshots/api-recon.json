@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+    "chain": "eth",
+    "window": {
+      "from": "2026-08-30T09:40:11.347Z",
+      "to": "2026-09-06T09:40:11.347Z"
+    },
+    "generatedAt": "2026-09-06T09:40:11.347Z",
+    "txScanned": 150,
+    "txInWindow": 2
+  },
+  "totals": {
+    "inflowEth": 0,
+    "outflowEth": 0,
+    "feesEth": 0.00000757726655422,
+    "netEth": 0
+  },
+  "counterparties": [
+    {
+      "address": "0xfd8d904767176d9f2feb7305e4714dc89758dc48",
+      "txCount": 2,
+      "volumeEth": 0,
+      "direction": "in"
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-09-01",
+      "count": 2,
+      "inflowEth": 0,
+      "outflowEth": 0
+    }
+  ],
+  "largestTx": {
+    "hash": "0x18fbf4798992552d03c80a474f2c5b42dfe67a1bbfcba6cacec93268f083cbab",
+    "valueEth": 0,
+    "direction": "in",
+    "timestamp": "2026-09-01T11:12:59.000000Z"
+  },
+  "tokens": [],
+  "ledger": [],
+  "suspicious": {
+    "failedTxs": 0,
+    "dustTxs": 0,
+    "singleCounterpartyBurst": null
+  }
+}

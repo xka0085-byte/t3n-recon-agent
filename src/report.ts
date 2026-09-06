@@ -1,9 +1,28 @@
-import { NormalizedTx, fmtEth, weiToEth } from "./blockscout.js";
+import { NormalizedTx, NormalizedTokenTransfer, fmtEth, weiToEth } from "./blockscout.js";
 
 export interface ReconOptions {
   address: string;
   chain: string;
   days: number;
+}
+
+export interface TokenSummary {
+  symbol: string;
+  tokenAddress: string;
+  txCount: number;
+  inflow: number;
+  outflow: number;
+  net: number;
+  counterparties: number;
+}
+
+export interface LedgerRow {
+  date: string;
+  txHash: string;
+  direction: "in" | "out";
+  counterparty: string;
+  asset: string;
+  amount: number;
 }
 
 export interface ReconReport {
@@ -24,6 +43,8 @@ export interface ReconReport {
   counterparties: { address: string; txCount: number; volumeEth: number; direction: "in" | "out" }[];
   daily: { date: string; count: number; inflowEth: number; outflowEth: number }[];
   largestTx: { hash: string; valueEth: number; direction: "in" | "out"; timestamp: string } | null;
+  tokens: TokenSummary[];
+  ledger: LedgerRow[];
   suspicious: {
     failedTxs: number;
     dustTxs: number;
@@ -31,7 +52,22 @@ export interface ReconReport {
   };
 }
 
-export function buildReport(txs: NormalizedTx[], opts: ReconOptions): ReconReport {
+export function buildReport(
+  txsRaw: NormalizedTx[],
+  opts: ReconOptions,
+  tokenTransfersRaw: NormalizedTokenTransfer[] = [],
+): ReconReport {
+  // defensive normalization — never trust the caller to pre-lowercase addresses
+  const txs = txsRaw.map((t) => ({
+    ...t,
+    from: t.from.toLowerCase(),
+    to: t.to ? t.to.toLowerCase() : null,
+  }));
+  const tokenTransfers = tokenTransfersRaw.map((t) => ({
+    ...t,
+    from: t.from.toLowerCase(),
+    to: t.to.toLowerCase(),
+  }));
   const addr = opts.address.toLowerCase();
   const now = new Date();
   const windowStart = new Date(now.getTime() - opts.days * 24 * 3600 * 1000);
@@ -101,6 +137,57 @@ export function buildReport(txs: NormalizedTx[], opts: ReconOptions): ReconRepor
     .map(([date, v]) => ({ date, count: v.count, inflowEth: weiToEth(v.in), outflowEth: weiToEth(v.out) }))
     .sort((a, b) => a.date.localeCompare(b.date));
 
+  // ---- token (ERC-20/stablecoin) reconciliation ----
+  const tokMap = new Map<
+    string,
+    TokenSummary & { in: number; out: number; cps: Set<string> }
+  >();
+  const ledger: LedgerRow[] = [];
+  for (const t of tokenTransfers) {
+    if (new Date(t.timestamp) < windowStart) continue;
+    const isFrom = t.from === addr;
+    const direction: "in" | "out" = isFrom ? "out" : "in";
+    const cp = isFrom ? t.to : t.from;
+    const key = `${t.tokenSymbol}|${t.tokenAddress}`;
+    const s =
+      tokMap.get(key) ??
+      {
+        symbol: t.tokenSymbol,
+        tokenAddress: t.tokenAddress,
+        txCount: 0,
+        inflow: 0,
+        outflow: 0,
+        net: 0,
+        counterparties: 0,
+        in: 0,
+        out: 0,
+        cps: new Set<string>(),
+      };
+    s.txCount += 1;
+    if (direction === "in") s.in += t.valueHuman; else s.out += t.valueHuman;
+    if (cp) s.cps.add(cp);
+    tokMap.set(key, s);
+    ledger.push({
+      date: t.timestamp.slice(0, 10),
+      txHash: t.hash,
+      direction,
+      counterparty: cp,
+      asset: t.tokenSymbol,
+      // fixed precision — never emit scientific notation into accounting CSVs
+      amount: Number(t.valueHuman.toFixed(8)),
+    });
+  }
+  const tokens: TokenSummary[] = [...tokMap.values()]
+    .map(({ in: i, out: o, cps, ...rest }) => ({
+      ...rest,
+      counterparties: cps.size,
+      inflow: i,
+      outflow: o,
+      net: i - o,
+    }))
+    .sort((a, b) => b.txCount - a.txCount);
+  ledger.sort((a, b) => a.date.localeCompare(b.date));
+
   return {
     meta: {
       address: addr,
@@ -119,8 +206,25 @@ export function buildReport(txs: NormalizedTx[], opts: ReconOptions): ReconRepor
     counterparties,
     daily,
     largestTx: largest,
+    tokens,
+    ledger,
     suspicious: { failedTxs: failed, dustTxs: dust, singleCounterpartyBurst: burst },
   };
+}
+
+/** Accounting-friendly CSV: one row per token transfer, ISO dates, no thousands separators. */
+export function toCsv(r: ReconReport): string {
+  const esc = (v: string | number) => {
+    const s = String(v);
+    return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+  };
+  const rows = [
+    "date,tx_hash,direction,counterparty,asset,amount",
+    ...r.ledger.map((l) =>
+      [l.date, l.txHash, l.direction, l.counterparty, l.asset, l.amount].map(esc).join(","),
+    ),
+  ];
+  return rows.join("\n");
 }
 
 // helper: convert eth number back to wei-approx for comparison
@@ -161,6 +265,20 @@ export function toMarkdown(r: ReconReport): string {
   lines.push(`|---|---|---|---|`);
   for (const c of r.counterparties) {
     lines.push(`| \`${c.address}\` | ${c.txCount} | ${c.volumeEth.toFixed(6)} | ${c.direction} |`);
+  }
+  lines.push("");
+  lines.push(`## Token transfers (stablecoins / ERC-20)`);
+  lines.push("");
+  if (r.tokens.length === 0) {
+    lines.push("_None in window._");
+  } else {
+    lines.push(`| Asset | Txs | Inflow | Outflow | Net | Counterparties |`);
+    lines.push(`|---|---|---|---|---|---|`);
+    for (const t of r.tokens) {
+      lines.push(
+        `| ${t.symbol} | ${t.txCount} | ${t.inflow.toFixed(2)} | ${t.outflow.toFixed(2)} | ${t.net.toFixed(2)} | ${t.counterparties} |`,
+      );
+    }
   }
   lines.push("");
   lines.push(`## Flags`);

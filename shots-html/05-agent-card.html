@@ -1,0 +1,29 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+  body{margin:0;background:#0d1117;font-family:'Cascadia Code',Consolas,monospace}
+  .win{margin:24px;border-radius:10px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.5);border:1px solid #30363d}
+  .bar{background:#161b22;padding:10px 14px;display:flex;align-items:center;gap:8px;border-bottom:1px solid #30363d}
+  .dot{width:12px;height:12px;border-radius:50%}
+  .t{color:#8b949e;font-size:13px;margin-left:10px}
+  pre{margin:0;padding:20px 24px;color:#c9d1d9;font-size:13.5px;line-height:1.55;white-space:pre-wrap}
+  .g{color:#3fb950}.y{color:#d29922}.c{color:#58a6ff}
+</style></head><body><div class="win"><div class="bar">
+  <span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span>
+  <span class="t">Agent card — live public endpoint (ERC-8004)</span></div><pre><span class="g">PS C:\t3n-recon-agent&gt;</span> <span class="c">curl https://cn-api.sg.testnet.t3n.terminal3.io/api/agent-card/did:t3n:7dddb24424ebae514ec79c67f1e463522123c8fd</span>
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Onchain Recon Agent",
+  "description": "Enterprise on-chain reconciliation agent by eidon-labs. Fetches EVM address transaction history across Ethereum, Base, Arbitrum and Optimism, builds reconciliation reports (inflow/outflow/fees/net, top counterparties, daily activity, anomaly flags: failed txs, dust, counterparty bursts), and binds every report hash to a T3N DID attestation for tamper-evident audit trails.",
+  "services": [
+    {
+      "name": "DID",
+      "endpoint": "did:t3n:7dddb24424ebae514ec79c67f1e463522123c8fd",
+      "version": "v1"
+    }
+  ],
+  "x402Support": false,
+  "active": true,
+  "registrations": [],
+  "supportedTrust": ["tee-attestation"]
+}
+
+<span class="g">200 OK</span> <span class="y">served verbatim by T3N — publicly resolvable by anyone</span></pre></div></body></html>

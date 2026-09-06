@@ -1,0 +1,24 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+  body{margin:0;background:#0d1117;font-family:'Cascadia Code',Consolas,monospace}
+  .win{margin:24px;border-radius:10px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.5);border:1px solid #30363d}
+  .bar{background:#161b22;padding:10px 14px;display:flex;align-items:center;gap:8px;border-bottom:1px solid #30363d}
+  .dot{width:12px;height:12px;border-radius:50%}
+  .t{color:#8b949e;font-size:13px;margin-left:10px}
+  pre{margin:0;padding:20px 24px;color:#c9d1d9;font-size:13.5px;line-height:1.55;white-space:pre-wrap}
+  .g{color:#3fb950}.y{color:#d29922}.c{color:#58a6ff}
+</style></head><body><div class="win"><div class="bar">
+  <span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span>
+  <span class="t">t3n-recon-agent — npm run recon</span></div><pre><span class="g">PS C:\t3n-recon-agent&gt;</span> npm run recon -- --address 0xd8dA...6045 --chain eth --days 30
+<span class="c">[recon]</span> fetching eth txs for 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045 (up to 3 pages)...
+<span class="c">[recon]</span> got 150 txs, 150 token transfers
+<span class="c">[recon]</span> report saved: reports/eth-0xd8dA6BF2-2026-09-06T09-39-04.json / reports/eth-0xd8dA6BF2-2026-09-06T09-39-04.md / reports/eth-0xd8dA6BF2-2026-09-06T09-39-04.csv
+<span class="g">[t3n]</span> attestation written: reports/eth-0xd8dA6BF2-2026-09-06T09-39-04.attestation.json
+<span class="g">[t3n]</span> signed-in identity: did:t3n:6951e5de000a39b57956b9c2b9edc7b462d0931e
+
+<span class="y">=== Summary ===</span>
+<span class="c">Inflow</span> : 0.007500 ETH
+Outflow: 0.000000 ETH
+<span class="c">Fees</span>   : 0.001813 ETH
+<span class="c">Net</span>    : 0.007500 ETH
+<span class="c">Flags</span>  : failed=1 dust=6
+</pre></div></body></html>

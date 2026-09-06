@@ -1,0 +1,9 @@
+source A: Blockscout (our parser)
+source B: https://ethereum-rpc.publicnode.com (independent node)
+
+[1/2] native ETH transactions...
+[2/2] ERC-20 token transfers (raw event-log decode)...
+ANOMALY 0x905e841cfc7b46d7b388a20d46d38045588cecd94f5630119054b9494cd596a1 RANDOM BEAVER SHOT — indexed by Blockscout but receipt missing on independent node (phantom/spam record?)
+
+=== Chain cross-validation ===
+result: 19 PASS / 0 FAIL (parser bugs) / 1 ANOMALY (data-quality flags)

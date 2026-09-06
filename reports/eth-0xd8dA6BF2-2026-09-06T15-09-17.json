@@ -1,0 +1,1702 @@
+{
+  "meta": {
+    "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+    "chain": "eth",
+    "window": {
+      "from": "2026-08-07T15:09:17.852Z",
+      "to": "2026-09-06T15:09:17.852Z"
+    },
+    "generatedAt": "2026-09-06T15:09:17.852Z",
+    "txScanned": 100,
+    "txInWindow": 23
+  },
+  "totals": {
+    "inflowEth": 0.007499568476068754,
+    "outflowEth": 0,
+    "feesEth": 0.001813297909444947,
+    "netEth": 0.007499568476068754
+  },
+  "counterparties": [
+    {
+      "address": "0xb8aeccc3ab76a0a1fb807244205b1e3f88c86b89",
+      "txCount": 4,
+      "volumeEth": 0.001637284338004952,
+      "direction": "in"
+    },
+    {
+      "address": "0x792316a26d8fd17fb0d89276dc21f23e868c1fc3",
+      "txCount": 4,
+      "volumeEth": 0.000457728262495602,
+      "direction": "in"
+    },
+    {
+      "address": "0x231b0ee14048e9dccd1d247744d114a4eb5e8e63",
+      "txCount": 3,
+      "volumeEth": 0,
+      "direction": "out"
+    },
+    {
+      "address": "0xfd8d904767176d9f2feb7305e4714dc89758dc48",
+      "txCount": 2,
+      "volumeEth": 0,
+      "direction": "in"
+    },
+    {
+      "address": "0x53b211221ed8a0835e1ebf629a478367f451a378",
+      "txCount": 2,
+      "volumeEth": 2e-7,
+      "direction": "in"
+    },
+    {
+      "address": "0x899ac98d90cd60eda9af2b4690307db784d03871",
+      "txCount": 1,
+      "volumeEth": 0.0000666,
+      "direction": "in"
+    },
+    {
+      "address": "0xd5576de575554fe28ae71c2b2adf1e9bdc9f8f74",
+      "txCount": 1,
+      "volumeEth": 0.000379393620112634,
+      "direction": "in"
+    },
+    {
+      "address": "0x14d1d32e80f72e1dbf3f7e15832208aec6ad3b34",
+      "txCount": 1,
+      "volumeEth": 0.000032073707614893,
+      "direction": "in"
+    },
+    {
+      "address": "0xf1e863db11ac066395ae1248257c2d2b9644bf3f",
+      "txCount": 1,
+      "volumeEth": 0.001,
+      "direction": "in"
+    },
+    {
+      "address": "0xf3f9c2480a479901237d449dcebd51eec5ddb4e9",
+      "txCount": 1,
+      "volumeEth": 0.003810972622391212,
+      "direction": "in"
+    },
+    {
+      "address": "0x815c0749b7f28001bf00d28be3ffcdfaba919349",
+      "txCount": 1,
+      "volumeEth": 0.000005315925449461,
+      "direction": "in"
+    },
+    {
+      "address": "0x54553686f101723b69ea87db9a9b568cc4bbaf4a",
+      "txCount": 1,
+      "volumeEth": 0.0001,
+      "direction": "in"
+    },
+    {
+      "address": "0xa2e401452fd9a80f53b34d41a057eeaa741576b2",
+      "txCount": 1,
+      "volumeEth": 0.00001,
+      "direction": "in"
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-08-08",
+      "count": 1,
+      "inflowEth": 0.00001,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-10",
+      "count": 1,
+      "inflowEth": 0.0001,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1,
+      "inflowEth": 0.000005315925449461,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-13",
+      "count": 4,
+      "inflowEth": 0.000457728262495602,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-14",
+      "count": 2,
+      "inflowEth": 2e-7,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-20",
+      "count": 2,
+      "inflowEth": 0.004810972622391212,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-21",
+      "count": 5,
+      "inflowEth": 0.000411467327727527,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-23",
+      "count": 1,
+      "inflowEth": 0.000409321084501238,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-24",
+      "count": 2,
+      "inflowEth": 0.000818642169002476,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-08-25",
+      "count": 2,
+      "inflowEth": 0.000475921084501238,
+      "outflowEth": 0
+    },
+    {
+      "date": "2026-09-01",
+      "count": 2,
+      "inflowEth": 0,
+      "outflowEth": 0
+    }
+  ],
+  "largestTx": {
+    "hash": "0x4ff69976c848060b015a27f21275cb303269cb729af1616f1bf074c96a7fd3c2",
+    "valueEth": 0.003810972622391212,
+    "direction": "in",
+    "timestamp": "2026-08-20T19:09:23.000000Z"
+  },
+  "tokens": [
+    {
+      "symbol": "CMD",
+      "tokenAddress": "0xae42f183554d369ee98b7b1980bea3761f47abc3",
+      "txCount": 10,
+      "inflow": 102152.54749784789,
+      "outflow": 0,
+      "net": 102152.54749784789,
+      "counterparties": 1
+    },
+    {
+      "symbol": "SOS",
+      "tokenAddress": "0x7373dbc24dcd785896e8ac3d5372c6ced9b75a8a",
+      "txCount": 5,
+      "inflow": 5,
+      "outflow": 0,
+      "net": 5,
+      "counterparties": 2
+    },
+    {
+      "symbol": "WOFL",
+      "tokenAddress": "0xd8177b80304ec7fa412145178d61bf38b6ba7b9d",
+      "txCount": 3,
+      "inflow": 28054526.422467507,
+      "outflow": 0,
+      "net": 28054526.422467507,
+      "counterparties": 1
+    },
+    {
+      "symbol": "MONKEY",
+      "tokenAddress": "0x9fe9852d1eb054dbe69932266a71fb582c8b2e53",
+      "txCount": 2,
+      "inflow": 2000000000000000000,
+      "outflow": 0,
+      "net": 2000000000000000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "WEBCAT",
+      "tokenAddress": "0x7c5b840084e403b1c2918396bfff40000ae82f0c",
+      "txCount": 2,
+      "inflow": 7011420.000000016,
+      "outflow": 0,
+      "net": 7011420.000000016,
+      "counterparties": 2
+    },
+    {
+      "symbol": "ETHCAT",
+      "tokenAddress": "0x777777780838c00038ecd48f63f3c37669322bc8",
+      "txCount": 2,
+      "inflow": 344281.510705851,
+      "outflow": 0,
+      "net": 344281.510705851,
+      "counterparties": 1
+    },
+    {
+      "symbol": "ECAT",
+      "tokenAddress": "0x6f97a626fd3a28768c7d7a4cd170a1214c539caa",
+      "txCount": 2,
+      "inflow": 1000000000,
+      "outflow": 0,
+      "net": 1000000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "ETHCAT",
+      "tokenAddress": "0xe62a589497123fbbc0d275a3b9876f1086fa0e89",
+      "txCount": 2,
+      "inflow": 902806761.5723393,
+      "outflow": 0,
+      "net": 902806761.5723393,
+      "counterparties": 1
+    },
+    {
+      "symbol": "EGP",
+      "tokenAddress": "0x02f9a41fddb67f5ee56d08cf94b7e2917eeb49a0",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "W🍖",
+      "tokenAddress": "0xdfa208bb0b811cfbb5fa3ea98ec37aa86180e668",
+      "txCount": 1,
+      "inflow": 10,
+      "outflow": 0,
+      "net": 10,
+      "counterparties": 1
+    },
+    {
+      "symbol": "WMC",
+      "tokenAddress": "0x7fd4d7737597e7b4ee22acbf8d94362343ae0a79",
+      "txCount": 1,
+      "inflow": 1,
+      "outflow": 0,
+      "net": 1,
+      "counterparties": 1
+    },
+    {
+      "symbol": "SAND",
+      "tokenAddress": "0x3845badade8e6dff049820680d1f14bd3903a5d0",
+      "txCount": 1,
+      "inflow": 0.25007549,
+      "outflow": 0,
+      "net": 0.25007549,
+      "counterparties": 1
+    },
+    {
+      "symbol": "RANDOM BEAVER SHOT",
+      "tokenAddress": "0x3095ee6b24876e992c2fc9d1d93667f9adaece5e",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "MEMESTOCKS",
+      "tokenAddress": "0x567f94ee77838c387a59d02d27bce8418b7af74e",
+      "txCount": 1,
+      "inflow": 10000,
+      "outflow": 0,
+      "net": 10000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "vitalik0",
+      "tokenAddress": "0x3798c465efa3b2b8eff582d2d20ece040e897aa7",
+      "txCount": 1,
+      "inflow": 22238.575622260207,
+      "outflow": 0,
+      "net": 22238.575622260207,
+      "counterparties": 1
+    },
+    {
+      "symbol": "ALPHA",
+      "tokenAddress": "0x0e5be99f60178fb0c807c6ae0d3971879da39aa8",
+      "txCount": 1,
+      "inflow": 241603.35625920145,
+      "outflow": 0,
+      "net": 241603.35625920145,
+      "counterparties": 1
+    },
+    {
+      "symbol": "USDT",
+      "tokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "txCount": 1,
+      "inflow": 0.1,
+      "outflow": 0,
+      "net": 0.1,
+      "counterparties": 1
+    },
+    {
+      "symbol": "LALACAT",
+      "tokenAddress": "0x331b85d8cfdb9ff8dbe6e30d4c325a1adccd1110",
+      "txCount": 1,
+      "inflow": 30000000,
+      "outflow": 0,
+      "net": 30000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "SHRUB",
+      "tokenAddress": "0xd5aaa4ae36a51347a056bbba2744b566f16e6f9c",
+      "txCount": 1,
+      "inflow": 4000000000,
+      "outflow": 0,
+      "net": 4000000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "SUPRA",
+      "tokenAddress": "0xdc7404100a092c898e93708ef73f3322a7acc213",
+      "txCount": 1,
+      "inflow": 10,
+      "outflow": 0,
+      "net": 10,
+      "counterparties": 1
+    },
+    {
+      "symbol": "swaby",
+      "tokenAddress": "0x4508850185d9dec2b29a8f066af730bb2050d85d",
+      "txCount": 1,
+      "inflow": 60000000,
+      "outflow": 0,
+      "net": 60000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "TAKO",
+      "tokenAddress": "0x934b8ef5291437ad5237afe2a694c64771883b49",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "HATED",
+      "tokenAddress": "0x13b6c03f966db1a39289c5491da37414c10fab07",
+      "txCount": 1,
+      "inflow": 100000000,
+      "outflow": 0,
+      "net": 100000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "Cmonkey",
+      "tokenAddress": "0xc7f37268cef5aac2257d26b9e45f59fa75e05312",
+      "txCount": 1,
+      "inflow": 100000000,
+      "outflow": 0,
+      "net": 100000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "SUNNY",
+      "tokenAddress": "0x6686d8cbe9b78e5ade44a2c3e5f269bf9f97a238",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "01",
+      "tokenAddress": "0x32708538a107253b51a735a724330a23106ca4ca",
+      "txCount": 1,
+      "inflow": 1,
+      "outflow": 0,
+      "net": 1,
+      "counterparties": 1
+    },
+    {
+      "symbol": "BLOCK",
+      "tokenAddress": "0xe6b60ab740d0195550dabff1f6e650d7044780d0",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "LDR2",
+      "tokenAddress": "0x6353c4292076d4249879ddc7178ca9c2edf4ef1e",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "FWAP",
+      "tokenAddress": "0x748a6ed34b6780a768c307a2554bad79509c5705",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "PETER",
+      "tokenAddress": "0x4ea6b9ebec21a7b5f08c4a0988dc6e5057ffdef5",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "CyberOwl",
+      "tokenAddress": "0xbf4b0f52a8040a04cb92e5fbe5d2624ff0c92c66",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "Kaya",
+      "tokenAddress": "0xcb516cdd2b6d62d895acc6ab249e7b61f2441a8a",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "SPARKY",
+      "tokenAddress": "0x7f2d3fc78fcf9cb8fa52a02f11f2714a5c8dda68",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "PROOF",
+      "tokenAddress": "0x45a89ffe28eed501b946f7dd85bb96d6041e2590",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "AWF",
+      "tokenAddress": "0x12a77658112cf42914cb614d13653ed5852da1e5",
+      "txCount": 1,
+      "inflow": 980,
+      "outflow": 0,
+      "net": 980,
+      "counterparties": 1
+    },
+    {
+      "symbol": "DOGDOIN",
+      "tokenAddress": "0x6a88e16566eddab7e3756c82d80096129a8e8276",
+      "txCount": 1,
+      "inflow": 209514.37377194196,
+      "outflow": 0,
+      "net": 209514.37377194196,
+      "counterparties": 1
+    },
+    {
+      "symbol": "Sue",
+      "tokenAddress": "0x8bd452f928bba2c85bdde408ddd3c636d087076b",
+      "txCount": 1,
+      "inflow": 5000000,
+      "outflow": 0,
+      "net": 5000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "Opossum",
+      "tokenAddress": "0x6e28cd517d8949c2334d97e3ca4541b415dfddcb",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "0xfaafdc07",
+      "tokenAddress": "0xfaafdc07907ff5120a76b34b731b278c38d6043c",
+      "txCount": 1,
+      "inflow": 0,
+      "outflow": 1e-18,
+      "net": -1e-18,
+      "counterparties": 1
+    },
+    {
+      "symbol": "MECHAMASK",
+      "tokenAddress": "0x7c9eeb29d0270f9c28b8a6903e1ead2d4e065743",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "MECHAMASK",
+      "tokenAddress": "0xebea7f9726d15526bdec4ee3b1bc96a0984468c8",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "MARTIANS",
+      "tokenAddress": "0x87528b9a3c120f05790775f0a025d9a44960b8a9",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "LOUISIANA",
+      "tokenAddress": "0x8583a300739dfa2fd64013a09e3205e46f8968c7",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "Optimi",
+      "tokenAddress": "0xca7bfa7c1871be65350b73b432c5144591b5cbe5",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "happyseb",
+      "tokenAddress": "0x399244a599c551d42ca6ebb60191956de06e5d83",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "QUEEZING",
+      "tokenAddress": "0x9e3f2bd96cab56707c136be7690cccb8aece8956",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "ETHDOG",
+      "tokenAddress": "0x0b0564726fd4d02eea762ffa28ec975ff71a14fa",
+      "txCount": 1,
+      "inflow": 30000000,
+      "outflow": 0,
+      "net": 30000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "XCAT",
+      "tokenAddress": "0x69004a63783a1d4333384aadcccb7b1af4b62dce",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "RADI",
+      "tokenAddress": "0xa29939f74c3e527c83011fab972b09ac68e71a47",
+      "txCount": 1,
+      "inflow": 0,
+      "outflow": 0,
+      "net": 0,
+      "counterparties": 1
+    },
+    {
+      "symbol": "DIGITALCAT",
+      "tokenAddress": "0x9395f9b57c9f5d0094ca61a71f8f2581829ca848",
+      "txCount": 1,
+      "inflow": 9809657.393268771,
+      "outflow": 0,
+      "net": 9809657.393268771,
+      "counterparties": 1
+    },
+    {
+      "symbol": "LODE",
+      "tokenAddress": "0xfed63ca6bbbd8966b9db9de118b57c8b1007f9e4",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "CHONKOSAURUS",
+      "tokenAddress": "0xde2876c3e6ef39d4a1d8de0aef95348b82022e0c",
+      "txCount": 1,
+      "inflow": 20000000,
+      "outflow": 0,
+      "net": 20000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "ETHCAT",
+      "tokenAddress": "0x01382936c60417a159c9175d3b2010bf5794a585",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "RAISE",
+      "tokenAddress": "0xb17a5b0a5ce271e92211d2b364dd1c10371243c7",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "MNEMIS",
+      "tokenAddress": "0x3562000807446f2fbd36bf17156c9f0c097c65e4",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "arc",
+      "tokenAddress": "0x563e6e4ccdbc629c43e079b975aac3f6c3225ad3",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "CATE",
+      "tokenAddress": "0x712f3378cd1a0476b53f0e29b1a9586e00d78683",
+      "txCount": 1,
+      "inflow": 30000000,
+      "outflow": 0,
+      "net": 30000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "$WELL",
+      "tokenAddress": "0x63696fc66795b51d02c1590b536484a41fbddf9a",
+      "txCount": 1,
+      "inflow": 7450.70286824714,
+      "outflow": 0,
+      "net": 7450.70286824714,
+      "counterparties": 1
+    },
+    {
+      "symbol": "ETHERIS",
+      "tokenAddress": "0x1791d8ec6668ff2ed1c4dd2bfeb877ba21c8a5b6",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "TOLL",
+      "tokenAddress": "0xf00f4e677eefcc1fa3a55ca7300c0d66ed8b0996",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "KEKIUS",
+      "tokenAddress": "0x068968075696f3ec0b622a33e5f699df68533101",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "PIPECAT",
+      "tokenAddress": "0xa4d0602c0e049752efe1a29fb120e93869c34e7d",
+      "txCount": 1,
+      "inflow": 22000000,
+      "outflow": 0,
+      "net": 22000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "Nova",
+      "tokenAddress": "0x5dec53bcc5467d15f41a316dc60bf3021f4289ea",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "STONKS",
+      "tokenAddress": "0x1f629d2270818fabc4bc6c7bc91d0950778246b9",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "T-REX",
+      "tokenAddress": "0xe0dae4d21157f596fe0662016a748c14f89ca7fb",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "T0WER",
+      "tokenAddress": "0x5b9cdcf7eb2f25217a9bc7126bfaa74415b1420a",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "LOCAL",
+      "tokenAddress": "0x691be7c77e292f164656a807b07ce01b7c00e26a",
+      "txCount": 1,
+      "inflow": 390284.85058334004,
+      "outflow": 0,
+      "net": 390284.85058334004,
+      "counterparties": 1
+    },
+    {
+      "symbol": "stẸTH",
+      "tokenAddress": "0xf0a915daf03979902217e27514b194164679306b",
+      "txCount": 1,
+      "inflow": 1e-18,
+      "outflow": 0,
+      "net": 1e-18,
+      "counterparties": 1
+    },
+    {
+      "symbol": "STETH",
+      "tokenAddress": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+      "txCount": 1,
+      "inflow": 1e-18,
+      "outflow": 0,
+      "net": 1e-18,
+      "counterparties": 1
+    },
+    {
+      "symbol": "LINGO",
+      "tokenAddress": "0x9e9c78b1875276e110766e5f62f46d31a26ec86d",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "imm0l4t3",
+      "tokenAddress": "0x41436d590c179f9fb246c9aabc558e649f32b491",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "ESTONK",
+      "tokenAddress": "0x1a363b412c07d4ac076140a86ee0e398eb4f3e09",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "murderers",
+      "tokenAddress": "0xf7c2f33e4fcd38bd3db44b9d0b76a29a02075d27",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "LAMM",
+      "tokenAddress": "0xa623c960577ff8ab06ac00da262005eecdb57f2d",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "TPUFUND",
+      "tokenAddress": "0xec0abf0ef6b1d90e881898c277393f4ac4870f83",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "FAST",
+      "tokenAddress": "0xe6ab361231128340e3758b70815d6a9cac46848f",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "KEKIUS",
+      "tokenAddress": "0x9950f227b9062e4211d4889834da80ab4aba1ecc",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "Intismeran",
+      "tokenAddress": "0x7320cc794b492d7d01c8c83c0446c14527d8194b",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    },
+    {
+      "symbol": "pizza",
+      "tokenAddress": "0x831a3962e31037cf4eb8847cb7ea05aac1db35b6",
+      "txCount": 1,
+      "inflow": 5600,
+      "outflow": 0,
+      "net": 5600,
+      "counterparties": 1
+    },
+    {
+      "symbol": "Lemon",
+      "tokenAddress": "0x37a1286970c6b9953cc09a37ffc6ea70e42d4bc0",
+      "txCount": 1,
+      "inflow": 10000000,
+      "outflow": 0,
+      "net": 10000000,
+      "counterparties": 1
+    }
+  ],
+  "ledger": [
+    {
+      "date": "2026-08-18",
+      "txHash": "0xd7a246485023c27d3069b2e1afa12b5ee672fa169e4584ee77b8c720f79071e2",
+      "direction": "in",
+      "counterparty": "0x7b0d132c6bf845d5a072b6cc9201546f0af8a044",
+      "asset": "CMD",
+      "amount": 2955.44995472
+    },
+    {
+      "date": "2026-08-18",
+      "txHash": "0x776d9ae84d9db85277d5de57017ed21ccf94d6b04d3be9af7fe3b986fa83a299",
+      "direction": "in",
+      "counterparty": "0x87f7c0c8329ed79dd50dcd4ec0518a0c559e4a91",
+      "asset": "WOFL",
+      "amount": 536630.5852185
+    },
+    {
+      "date": "2026-08-18",
+      "txHash": "0x608074b3a04939dfcb6864669a1897ae3ccbfe325750403d3fd93b5ce5906657",
+      "direction": "in",
+      "counterparty": "0x87f7c0c8329ed79dd50dcd4ec0518a0c559e4a91",
+      "asset": "WOFL",
+      "amount": 21554665.63917842
+    },
+    {
+      "date": "2026-08-18",
+      "txHash": "0x70a3002e5d03867b7b55082474a4abfd8433175008a3f72b0ad4e1e2fc7eaf23",
+      "direction": "in",
+      "counterparty": "0x87f7c0c8329ed79dd50dcd4ec0518a0c559e4a91",
+      "asset": "WOFL",
+      "amount": 5963230.19807059
+    },
+    {
+      "date": "2026-08-19",
+      "txHash": "0xcd8a24df4a20c45113820f88204afb296120a1d356b5a92f97caf6a22d06201d",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "Intismeran",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-19",
+      "txHash": "0xe2e242bbed7c30cd3f354fc082fe1ead9a20685f8b6a0244defc166e022434aa",
+      "direction": "in",
+      "counterparty": "0x7b0d132c6bf845d5a072b6cc9201546f0af8a044",
+      "asset": "CMD",
+      "amount": 398.07853638
+    },
+    {
+      "date": "2026-08-19",
+      "txHash": "0x311cf0da16a3a632938f3516ba199c1f9c7b9d1f79ccbb720c6f7d749b0c0761",
+      "direction": "in",
+      "counterparty": "0x9a30cf4527d2cc80884405e16337149ab59e3d6e",
+      "asset": "pizza",
+      "amount": 5600
+    },
+    {
+      "date": "2026-08-19",
+      "txHash": "0xf3302a1e54aad55b1e6f88dca1bd2648af1cc8fd32b234e53098ccda73b392f3",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "Lemon",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-20",
+      "txHash": "0x095dc20f9cc4bfca8f829dd12b66a859992dc2bc2d2b97c89936a0abdbd0af19",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "LINGO",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-20",
+      "txHash": "0x9c240fd44ba9428bfb3ae547d38c9168dc5c3d1c03542a4106382b73ce7ade40",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "imm0l4t3",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-20",
+      "txHash": "0x78cc9223bad48593030b6a881b0727a10a95f4fc37aee9be2759b7561ce012e3",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "ESTONK",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-20",
+      "txHash": "0x8dca5eca4a6d01a6a96a6f1a416ba0415da52e06fbd8bb517946f42833d4301e",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "murderers",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-20",
+      "txHash": "0x22c81d2a5e751cf74c161ef4fe80f76a580080a35795f9026180ba714f27b8e6",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "LAMM",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-20",
+      "txHash": "0xd8765b3dd58b3c9ee7bca6f145847c1eba2469a92065cc7dba7940708e3dcd9f",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "TPUFUND",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-20",
+      "txHash": "0x378153efae40bc146d9a90ae896c62d7ad07af00f0df7ce52ea0ebc120bd348b",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "FAST",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-20",
+      "txHash": "0xdca4ae07f7c0085c8b7321961bb05ab9815aa549bc8ef8784647a91de2ef8281",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "KEKIUS",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-21",
+      "txHash": "0xfa1c1b4b748c869f495848c9ea1d78b495f2cca15b112ab1f1a9f98fd7e926ac",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "TOLL",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-21",
+      "txHash": "0x16e88499d668d5218bfcb2d4c41d75a7c1077771531dee3d9cbf2817cea0ae3f",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "KEKIUS",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-21",
+      "txHash": "0xfca30bf90379a08cd852ad39e6001e198d891e6c3134c7712f536a03c043e8be",
+      "direction": "in",
+      "counterparty": "0xfc615b4de67e6b46b3d43c6a3fae9b373015ee88",
+      "asset": "PIPECAT",
+      "amount": 22000000
+    },
+    {
+      "date": "2026-08-21",
+      "txHash": "0xb8fedaf2765a648b98a0c7eaab125f8373179e99aaab45467fbc7a4dd2b52db5",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "Nova",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-21",
+      "txHash": "0xc8a3effb754b8c15208b86587e0a9d462c1b533541b45d3fef7924a31a3ac34e",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "STONKS",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-21",
+      "txHash": "0x67b34ffba43271ae98249e933eb35ebf3f027d9d533d3a6f63c8c130f9c0bc91",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "T-REX",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-21",
+      "txHash": "0x9162e4afabb7e7b811342909fdd69dbf843e23f5dc711f80fbecc54f34bf6efb",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "T0WER",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-21",
+      "txHash": "0x7e70e76a1c01e4daa4ca5f2774351df11664bac76c7c351e06b533855cf98a86",
+      "direction": "in",
+      "counterparty": "0x5da441739614ea06af94b48afb9a7af906d4132d",
+      "asset": "LOCAL",
+      "amount": 390284.85058334
+    },
+    {
+      "date": "2026-08-21",
+      "txHash": "0x31f626e250574c5981c68d552ef1b91bc98003a05f069d218da2bc0506d990e2",
+      "direction": "in",
+      "counterparty": "0x2ed112099b05204a4b0af41bacf97966fc01c4bf",
+      "asset": "stẸTH",
+      "amount": 0
+    },
+    {
+      "date": "2026-08-21",
+      "txHash": "0x9f25253b5a89c9993dddfbdd7f4dcf129ea77043b7f92ebf0440de80892822cf",
+      "direction": "in",
+      "counterparty": "0x2ed1df732db7126fe3b4209d499368029471c4bf",
+      "asset": "STETH",
+      "amount": 0
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0xdc119f0a398ea574d1b9d716a94c76132cd6df4b45f75155af1ef72ce93034fb",
+      "direction": "in",
+      "counterparty": "0x7b0d132c6bf845d5a072b6cc9201546f0af8a044",
+      "asset": "CMD",
+      "amount": 2409.1781576
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0x51120f8c86a44607f3fcb793e845cd48b1b74cab92d815fb2e4b7e286f629464",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "LODE",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0x9cab90f961cc3c31d0582128bd31ddc426ec83ce571a8ccc1dd5dbd8ed912cfc",
+      "direction": "in",
+      "counterparty": "0xc013426d7cef8be3ef3b366151ed85e4fe33688c",
+      "asset": "CHONKOSAURUS",
+      "amount": 20000000
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0xd8e1a3814618779e1a053f0994e6c537294db79913ab801cc7f245b3eb2c9f39",
+      "direction": "in",
+      "counterparty": "0xa157357d2a57ea94ab46a50d69762875ddc4fe04",
+      "asset": "ETHCAT",
+      "amount": 217693.32299638
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0xa835cabfb16e141bae7e2cac3f157b4c17ade53f33cb1c5609efdcde2a7d3a10",
+      "direction": "in",
+      "counterparty": "0x11dff16a746245ae55f6cacc78422be4572e5ec7",
+      "asset": "ECAT",
+      "amount": 900000000
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0xc99dd83fdfd6b70236833f619132917fc010af6fede7866c5055aa5a970964cd",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "ETHCAT",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0x7d18752eb815a2100b8e0f77e44b98987edf71d173b76153df7accb071e50c0f",
+      "direction": "in",
+      "counterparty": "0x11dff16a746245ae55f6cacc78422be4572e5ec7",
+      "asset": "ETHCAT",
+      "amount": 100000000
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0x57dd9444d51b95264de637dccccc3cd81df223eb7609297c44ea430bafac1e62",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "RAISE",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0x84a0ea78428ebd72971eeb94e57b8996bdaba72665417864ea7d2fbd50760d87",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "MNEMIS",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0x310a80938f29f3b6446b82bff5f8b179b788f948e60a318e0053f691a267490d",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "arc",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0x732fbfe549bfafa7f57b399cc9670a1face3a5394afb0622534ad965b444eeb8",
+      "direction": "in",
+      "counterparty": "0xd23df64e59059946de021bb7d258a4c1e23a877b",
+      "asset": "CATE",
+      "amount": 30000000
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0x939d0846a407d6ff92d298e36e816803e4ec62b0385aaec52ce15d052054e490",
+      "direction": "in",
+      "counterparty": "0xd9b21debccff40ec0d249c50a8015235f9c226de",
+      "asset": "$WELL",
+      "amount": 7450.70286825
+    },
+    {
+      "date": "2026-08-22",
+      "txHash": "0xa618ecd103d4e966f4b724a99f36cf76321a551c803e1b163431ddb1da697af9",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "ETHERIS",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-23",
+      "txHash": "0x4a244aa9a826fcb68e6b467226788f3766f9d3bcb073df4cc3ada52a90e955c8",
+      "direction": "in",
+      "counterparty": "0x72cf03d162411304dcd5af059d136f536412ef78",
+      "asset": "WEBCAT",
+      "amount": 69420
+    },
+    {
+      "date": "2026-08-23",
+      "txHash": "0x9c7dbaa54fcb40bdba0d2080ef90f65ae8e9dcda09ca90cfe8e1d6736ec959d7",
+      "direction": "in",
+      "counterparty": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
+      "asset": "WEBCAT",
+      "amount": 6942000.00000002
+    },
+    {
+      "date": "2026-08-23",
+      "txHash": "0xb836e8f1574594bd28fba65da2cd7db9b7650c5bb0354edfbb91db8aba31bb1b",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "XCAT",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-23",
+      "txHash": "0xad17d25385e960c87d8acb5964aee0b9b9414ce0e1e86a5450bea4eb6c82fde2",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "RADI",
+      "amount": 0
+    },
+    {
+      "date": "2026-08-23",
+      "txHash": "0x7b825b9775673fda3d38308e95fded81a32e1ebd25bef98ba027b3d3e7ece39f",
+      "direction": "in",
+      "counterparty": "0x4ab1c49471ac756d95860b32387f06ccd4898150",
+      "asset": "DIGITALCAT",
+      "amount": 9809657.39326877
+    },
+    {
+      "date": "2026-08-23",
+      "txHash": "0x9c0807a414cef03654ed8fb62234577db919dd25e0378a85abb675db1c07136e",
+      "direction": "in",
+      "counterparty": "0xa157357d2a57ea94ab46a50d69762875ddc4fe04",
+      "asset": "ETHCAT",
+      "amount": 126588.18770947
+    },
+    {
+      "date": "2026-08-23",
+      "txHash": "0x3c1817548e7c0d2350bf2c7bb37552f7037bf7c148b59f66c21cc98cc22198e2",
+      "direction": "in",
+      "counterparty": "0x11dff16a746245ae55f6cacc78422be4572e5ec7",
+      "asset": "ECAT",
+      "amount": 100000000
+    },
+    {
+      "date": "2026-08-23",
+      "txHash": "0xd2cd52be6917f8c4ceac4ef5dbeb3f1ae1c062719b832daaaa8d839a9aeec1a4",
+      "direction": "in",
+      "counterparty": "0x11dff16a746245ae55f6cacc78422be4572e5ec7",
+      "asset": "ETHCAT",
+      "amount": 802806761.5723393
+    },
+    {
+      "date": "2026-08-24",
+      "txHash": "0x31cef54f91370935f303aa66a8e3cd6081fcd6e905811a128bfbb0853e252930",
+      "direction": "in",
+      "counterparty": "0xcef3d07ff065dbc8758fd6be918da56b6a331412",
+      "asset": "ETHDOG",
+      "amount": 30000000
+    },
+    {
+      "date": "2026-08-24",
+      "txHash": "0x8994f44743089c2e0b237e896b90b63f2ddd3541b8bfee28324b02b636906163",
+      "direction": "in",
+      "counterparty": "0x7b0d132c6bf845d5a072b6cc9201546f0af8a044",
+      "asset": "CMD",
+      "amount": 409.62264861
+    },
+    {
+      "date": "2026-08-25",
+      "txHash": "0xd8ed30afadfa843401ee35641e12d8d1aa9a55e537f382a0d080d3e4cdffe0fc",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "Opossum",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-25",
+      "txHash": "0x8f56c5bffd2fcbceb0faf6405e3ab57c0687dd80eb9d603aebee95572d398897",
+      "direction": "out",
+      "counterparty": "0x7083ddece38216c7741fa76c75326bea744ed321",
+      "asset": "0xfaafdc07",
+      "amount": 0
+    },
+    {
+      "date": "2026-08-25",
+      "txHash": "0x7eb5bd77541d8deea56f22adee08d1f8639090c047987e630b53e586c30bf5a7",
+      "direction": "in",
+      "counterparty": "0x7b0d132c6bf845d5a072b6cc9201546f0af8a044",
+      "asset": "CMD",
+      "amount": 3509.09509616
+    },
+    {
+      "date": "2026-08-25",
+      "txHash": "0x152e443ba889464a21b87c71a3d780c0a37a106827a4b6dbb856b46400cd4ba0",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "MECHAMASK",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-25",
+      "txHash": "0x9f34af15f11510874fc89f16e958b493bb20771a197ea62c643ca8a27c876434",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "MECHAMASK",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-25",
+      "txHash": "0xfb16801d5660fbab8be1bb9dacb156cb47e8a9c5c99ee20805bc4310746df32f",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "MARTIANS",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-25",
+      "txHash": "0xe67fee33f9b5f46b447f7c5f572305db3e20b0cddcf4e8342798860b29f294b0",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "LOUISIANA",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-25",
+      "txHash": "0xa58e20067add9b21b35ba8197e5f222e992d86d757688ce9d065da5a008d169d",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "Optimi",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-25",
+      "txHash": "0xca3052c044b90d74fb5b68f21782ed0da39b3f771b446fe3f6a453b4fd64f576",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "happyseb",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-25",
+      "txHash": "0x838dbeb39e92a6bfb1c608f3f4f20e6bb19c3e2b64b64c484d14c1ecdc2fc71d",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "QUEEZING",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-26",
+      "txHash": "0x1e1156df706b3686ab76cc5e84a2c5f64615b61043b2ade43f16cfe98cce2032",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "PETER",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-26",
+      "txHash": "0xecbdac731c5f1c48608d2d539b05101850a14abf9226521ffda82fe1b6fbca9c",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "CyberOwl",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-26",
+      "txHash": "0x82a1b463504fe3e9deb39dab12b869c7e0b60ed6825fcc4bd077a149abcb1216",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "Kaya",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-26",
+      "txHash": "0x8d4e03f91b127b5f89e7c69aa5c0bee7fd324a1c0977a1d089e047599fa884d6",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "SPARKY",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-26",
+      "txHash": "0xbdb1de5b59c4c1f8873728dd00b0849e53cbd5bd9bcde30c59f4c6c614163153",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "PROOF",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-26",
+      "txHash": "0xaa1d3aacf92edeccba9ada1af72a5f23da27f572572d6f2282c61276afa60789",
+      "direction": "in",
+      "counterparty": "0xdec404a2c6468a623dea63066ba113539006ed7f",
+      "asset": "AWF",
+      "amount": 980
+    },
+    {
+      "date": "2026-08-26",
+      "txHash": "0xb46b005f4587765476fa2c4092ea47d617dab1c6fe2447ca25a41d2b2b951d9e",
+      "direction": "in",
+      "counterparty": "0x00cad841898d7c22b4584eefede7a9649e153f87",
+      "asset": "DOGDOIN",
+      "amount": 209514.37377194
+    },
+    {
+      "date": "2026-08-26",
+      "txHash": "0x950c0bddcd40c4bd4b23da2c915df97ec96152ccad9fb015f7f63918d5b9729e",
+      "direction": "in",
+      "counterparty": "0x9fd95ce930b10a35a255dae8be50be44c33dd8d0",
+      "asset": "Sue",
+      "amount": 5000000
+    },
+    {
+      "date": "2026-08-27",
+      "txHash": "0x5e908b45bcdfb1dc6f7ec5e60e95b743a2874e52eaf6aa55e0f405f87845de92",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "BLOCK",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-27",
+      "txHash": "0xce9357184ca424f4812d8d540393f6d76dae62faacead91ad2fb712c4269090f",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "LDR2",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-27",
+      "txHash": "0x13a7d8799273b7d49c0f5674bc6f9f7c1b4778e6d1e6e3b5720bc1d9fa6d8af7",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "FWAP",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-27",
+      "txHash": "0xbbc803d42a034d1a054fe7a06a18ac4c730bb1589b68b160676bb001717ca4dd",
+      "direction": "in",
+      "counterparty": "0x7b0d132c6bf845d5a072b6cc9201546f0af8a044",
+      "asset": "CMD",
+      "amount": 85438.7557592
+    },
+    {
+      "date": "2026-08-28",
+      "txHash": "0xa0d581b6a537d45e37cd03c44a4cc73e749528258ee3f4679da5d617e0da0ada",
+      "direction": "in",
+      "counterparty": "0x8d1b61b77f5d61815dfa29e39dc9d16adf3a1cf2",
+      "asset": "HATED",
+      "amount": 100000000
+    },
+    {
+      "date": "2026-08-28",
+      "txHash": "0x1362aeb4697c3f684b3fe5917ef583e3ba01bbc30daf34f56648fdc35bc8dd86",
+      "direction": "in",
+      "counterparty": "0x7b0d132c6bf845d5a072b6cc9201546f0af8a044",
+      "asset": "CMD",
+      "amount": 5684.70384012
+    },
+    {
+      "date": "2026-08-28",
+      "txHash": "0xb1a74612989e4609b1d2bb63bfc9b55685680353dc887735f3487f9b210e433e",
+      "direction": "in",
+      "counterparty": "0x577e1c42748d43396c08795c40b2625500f4d11b",
+      "asset": "Cmonkey",
+      "amount": 100000000
+    },
+    {
+      "date": "2026-08-28",
+      "txHash": "0xd869eb694d8ee6e76ed11d916aa088be946b57feefb6da933942e9ba77393648",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "SUNNY",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-28",
+      "txHash": "0xd22e017fe3925e9ff42e51fde525a1e3149f2712bec3bcc22301ef5fae9f353d",
+      "direction": "in",
+      "counterparty": "0x0116dd8cd4a624c3a0ddb5f1436691dfcc932101",
+      "asset": "01",
+      "amount": 1
+    },
+    {
+      "date": "2026-08-30",
+      "txHash": "0x989b37eb89c045efc34b8c77ea1f54eb7de2eb98a913ff630aef96b6e7cfa4b2",
+      "direction": "in",
+      "counterparty": "0x68634e035322376a824b69af143fb087ea214d55",
+      "asset": "SHRUB",
+      "amount": 4000000000
+    },
+    {
+      "date": "2026-08-30",
+      "txHash": "0xf27d57ae947ac12c2bc86a782b042c887b39e27a9d77e6e310a22211322093b1",
+      "direction": "in",
+      "counterparty": "0xd0e10fad13314ba6f86263fab44446caba1230f3",
+      "asset": "SUPRA",
+      "amount": 10
+    },
+    {
+      "date": "2026-08-30",
+      "txHash": "0x69a15ebf826f9cbab7421850756dfc6452d6e47cc6d44249baaebef3336b95db",
+      "direction": "in",
+      "counterparty": "0x1c10e6574ee696f54b21a611a21313e4714628ad",
+      "asset": "SOS",
+      "amount": 1
+    },
+    {
+      "date": "2026-08-30",
+      "txHash": "0x3e86bdb426c1eb043efce846d729eb77c4fc6afdae58838329d2a2e1307ea2d9",
+      "direction": "in",
+      "counterparty": "0x3839edabfd473876431e4ec73350820ced071175",
+      "asset": "MONKEY",
+      "amount": 1000000000000000000
+    },
+    {
+      "date": "2026-08-30",
+      "txHash": "0x81375f063ce4075212ef936a783b9e28184fa0aa5a2b2b7464a7105b557f209a",
+      "direction": "in",
+      "counterparty": "0x3839edabfd473876431e4ec73350820ced071175",
+      "asset": "MONKEY",
+      "amount": 1000000000000000000
+    },
+    {
+      "date": "2026-08-30",
+      "txHash": "0x9c18bc7fc0ded0c6b75d848a306584b14801db2ff340170024d82785201186e9",
+      "direction": "in",
+      "counterparty": "0x577e1c42748d43396c08795c40b2625500f4d11b",
+      "asset": "swaby",
+      "amount": 60000000
+    },
+    {
+      "date": "2026-08-30",
+      "txHash": "0x4600e0791d162c3f8488df3f8dc093d530942879a20f53d6f8c02ef57124217f",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "TAKO",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-08-31",
+      "txHash": "0x1982d576004a9ed419ffc4639f1133dc956ec856f9e9b2a11d59a664d67d2699",
+      "direction": "in",
+      "counterparty": "0x922804717cd4fffd1cb1bf81eea7ff06caf94aa9",
+      "asset": "SOS",
+      "amount": 1
+    },
+    {
+      "date": "2026-08-31",
+      "txHash": "0x0bbad83b805464ee1fe830f2825754b0bc2696bb52f00b41bb40ca7b056b7297",
+      "direction": "in",
+      "counterparty": "0x1c10e6574ee696f54b21a611a21313e4714628ad",
+      "asset": "SOS",
+      "amount": 1
+    },
+    {
+      "date": "2026-08-31",
+      "txHash": "0x79499ad3f52f99631cf99610b032e78dd60a12dc310a0a64681d2b47158adeda",
+      "direction": "in",
+      "counterparty": "0x7b0d132c6bf845d5a072b6cc9201546f0af8a044",
+      "asset": "CMD",
+      "amount": 951.2742989
+    },
+    {
+      "date": "2026-09-01",
+      "txHash": "0x83e84fbbc97feb90fd52ceca9f8a054a37198307b0f144bebce491f57d1f8e06",
+      "direction": "in",
+      "counterparty": "0x922804717cd4fffd1cb1bf81eea7ff06caf94aa9",
+      "asset": "SOS",
+      "amount": 1
+    },
+    {
+      "date": "2026-09-01",
+      "txHash": "0xad83fea3b75ccd1e95fa9c8cd6690af39ed8157161517bb3f238e363ae4cb27b",
+      "direction": "in",
+      "counterparty": "0x0889e9327b98d7d1be3c301a4585ff3330502c9a",
+      "asset": "vitalik0",
+      "amount": 22238.57562226
+    },
+    {
+      "date": "2026-09-01",
+      "txHash": "0x48a688d2feb6bff01145de68fe249862383b19df703764ca42d697ac035e7801",
+      "direction": "in",
+      "counterparty": "0x0889e9327b98d7d1be3c301a4585ff3330502c9a",
+      "asset": "ALPHA",
+      "amount": 241603.3562592
+    },
+    {
+      "date": "2026-09-01",
+      "txHash": "0xa71c96d61902046b9b854657fcc9f5018a731a2ec78fa367db802e1f65b00380",
+      "direction": "in",
+      "counterparty": "0x9dbeb48a13ff5e505344516d2a3e13759967bf97",
+      "asset": "USDT",
+      "amount": 0.1
+    },
+    {
+      "date": "2026-09-01",
+      "txHash": "0x37d93d36ecd27816d53d6485de823679ede2642a7130b6c677d7019cdc291de3",
+      "direction": "in",
+      "counterparty": "0x353407c22111d4422dde34057cad300e1ef7a7bf",
+      "asset": "LALACAT",
+      "amount": 30000000
+    },
+    {
+      "date": "2026-09-02",
+      "txHash": "0x57b7db530069df7cc29ea116de89c3a1c0794c795e5812d9bc8cab366bd97217",
+      "direction": "in",
+      "counterparty": "0x922804717cd4fffd1cb1bf81eea7ff06caf94aa9",
+      "asset": "SOS",
+      "amount": 1
+    },
+    {
+      "date": "2026-09-03",
+      "txHash": "0x905e841cfc7b46d7b388a20d46d38045588cecd94f5630119054b9494cd596a1",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "RANDOM BEAVER SHOT",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-09-03",
+      "txHash": "0x93f7f4c62253b186f01ef88f9efd5547306422f43005366f7ab528f92c487731",
+      "direction": "in",
+      "counterparty": "0x3839edabfd473876431e4ec73350820ced071175",
+      "asset": "MEMESTOCKS",
+      "amount": 10000
+    },
+    {
+      "date": "2026-09-05",
+      "txHash": "0x17a4ef8c79f69df16626ea43f5d7710a714ee9b882d608819704fb4178f6110b",
+      "direction": "in",
+      "counterparty": "0xf00052e3c8579601a58e10dfb7d67d1bce6a3223",
+      "asset": "SAND",
+      "amount": 0.25007549
+    },
+    {
+      "date": "2026-09-05",
+      "txHash": "0x26c6928bdbef89004e3a8b60afb2685edbb5eaf15e073e6712fd4bcd69b136e4",
+      "direction": "in",
+      "counterparty": "0x7b0d132c6bf845d5a072b6cc9201546f0af8a044",
+      "asset": "CMD",
+      "amount": 131.44158602
+    },
+    {
+      "date": "2026-09-06",
+      "txHash": "0x745835e22ce7ba783e8f4a865de4dd4e4d00caf297b51143c9260251444f07a9",
+      "direction": "in",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "asset": "EGP",
+      "amount": 10000000
+    },
+    {
+      "date": "2026-09-06",
+      "txHash": "0x6a2f9a508d110bd2d2c7b1dfdfbad28ea99ec8ca11d34cbae1f82ad19b9c2ff5",
+      "direction": "in",
+      "counterparty": "0xf66ac2c80aaeff89b081ff911e80e7daeb9d0af6",
+      "asset": "W🍖",
+      "amount": 10
+    },
+    {
+      "date": "2026-09-06",
+      "txHash": "0xa7d1599827d89e6556c7354faea3bf8c4c66f42c996dfb3816bd4aa553ff292c",
+      "direction": "in",
+      "counterparty": "0xf66ac2c80aaeff89b081ff911e80e7daeb9d0af6",
+      "asset": "WMC",
+      "amount": 1
+    },
+    {
+      "date": "2026-09-06",
+      "txHash": "0x11de61a02538803a508b7b6e3f6f0e352e5900e377e6dae152afa550e639bc85",
+      "direction": "in",
+      "counterparty": "0x7b0d132c6bf845d5a072b6cc9201546f0af8a044",
+      "asset": "CMD",
+      "amount": 264.94762014
+    }
+  ],
+  "suspicious": {
+    "failedTxs": 1,
+    "dustTxs": 6,
+    "singleCounterpartyBurst": null
+  }
+}
